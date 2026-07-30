@@ -494,5 +494,3 @@ OUTPUT:
 Enter the side length of the Cube: 34
 The Total Surface Area of the Cube is: 6936.0
 
-QUESTION: 21
-
