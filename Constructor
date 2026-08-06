@@ -1,0 +1,114 @@
+Constructor
+
+class Student {
+    String name;
+
+    Student(String name) {
+        this.name = name;
+    }
+
+    void display() {
+        System.out.println("Name: " + name);
+    }
+
+    public static void main(String[] args) {
+        Student s1 = new Student("Shiny");
+        s1.display();
+    }
+}
+
+Types of Constructor
+ 1)Default Constructor
+
+import java.io.*;
+
+class Friends{
+
+    // Default Constructor
+    Friends(){
+        
+        System.out.println("Default constructor"); 
+        
+    }
+    public static void main(String[] args){
+        
+        Friends hello = new Friends();
+    }
+}
+Output
+Default constructor
+2)Parameterized Constructor
+
+class Abarna{
+
+    /
+    String name;
+    int id;
+
+    
+    Shine(String name, int id)
+    {
+        this.name = name;
+        this.id = id;
+    }
+
+
+    void display(){
+        
+        System.out.println("ShinesName: " + name
+                           + " and ShinesId: " + id);
+    }
+
+    
+  
+    public static void main(String[] args){
+        
+        
+        Shine Shines1 = new Shine("Shiny", 20);
+        Abarna.display();
+    }
+}
+
+Output
+ShinesName: Shiny and ShinesId: 20
+3. Copy Constructor in Java
+
+import java.io.*;
+
+class Student {
+
+    String name;
+    int id;
+
+    Student(String name, int id) {
+        this.name = name;
+        this.id = id;
+    }
+
+    // Copy Constructor
+    Student(Student obj2) {
+        this.name = obj2.name;
+        this.id = obj2.id;
+    }
+
+    public static void main(String[] args) {
+
+        System.out.println("First Object");
+        Student student1 = new Student("Shiny", 20);
+        System.out.println("Student Name: " + student1.name +
+                " and Student ID: " + student1.id);
+
+        System.out.println();
+
+        System.out.println("Copy Constructor used for Second Object");
+        Student student2 = new Student(student1);
+        System.out.println("Student Name: " + student2.name +
+                " and Student ID: " + student2.id);
+    }
+}
+Output:
+First Object
+Student Name: Abarna and Student ID: 20
+
+Copy Constructor used for Second Object
+Student Name: Abarna and Student ID: 20
