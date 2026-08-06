@@ -34,12 +34,12 @@ class Employee {
     public static void main(String[] args) {
         Employee e1 = new Employee();
 
-        e1.name = "Priya";
+        e1.name = "Nisha";
         e1.salary = 35000;
 
         e1.showDetails();
     }
 }
 Output
-Employee Name:Priya
+Employee Name:Nisha
 Salary: 35000.0
