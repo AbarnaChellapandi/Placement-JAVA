@@ -99,7 +99,7 @@ CODE:
 public class Pattern5 {
     public static void main(String[] args) {
 
-        // Upper part
+        
         for (int i = 1; i <= 5; i++) {
             for (int j = 1; j <= i; j++) {
                 System.out.print("*");
@@ -107,7 +107,7 @@ public class Pattern5 {
             System.out.println();
         }
 
-        // Lower part
+        
         for (int i = 4; i >= 1; i--) {
             for (int j = 1; j <= i; j++) {
                 System.out.print("*");
@@ -261,12 +261,12 @@ public class Pattern11 {
 
         for (int i = 5; i >= 1; i--) {
 
-            // Spaces
+            
             for (int j = 1; j <= 5 - i; j++) {
                 System.out.print(" ");
             }
 
-            // Stars
+            
             for (int j = 1; j <= i; j++) {
                 System.out.print("* ");
             }
@@ -292,7 +292,7 @@ CODE:
 public class Pattern12 {
     public static void main(String[] args) {
 
-        // Upper Part
+        
         for (int i = 5; i >= 1; i--) {
 
             for (int j = 1; j <= 5 - i; j++)
@@ -304,7 +304,7 @@ public class Pattern12 {
             System.out.println();
         }
 
-        // Lower Part
+    
         for (int i = 2; i <= 5; i++) {
 
             for (int j = 1; j <= 5 - i; j++)
@@ -397,7 +397,7 @@ public class Pattern15 {
 
         int n = 5;
 
-        // Upper
+        
         for (int i = 1; i <= n; i++) {
 
             for (int j = 1; j <= n - i; j++)
@@ -414,7 +414,7 @@ public class Pattern15 {
             System.out.println();
         }
 
-        // Lower
+        
         for (int i = n - 1; i >= 1; i--) {
 
             for (int j = 1; j <= n - i; j++)
@@ -478,7 +478,7 @@ public class Pattern17 {
 
         int n = 4;
 
-        // Upper
+        
         for (int i = 1; i <= n; i++) {
 
             for (int j = 1; j <= n - i; j++)
@@ -493,7 +493,7 @@ public class Pattern17 {
             System.out.println();
         }
 
-        // Lower
+        
         for (int i = n - 1; i >= 1; i--) {
 
             for (int j = 1; j <= n - i; j++)
@@ -575,7 +575,7 @@ public class Pattern19 {
 
         int n = 5;
 
-        // Upper
+        
         for (int i = 1; i <= n; i++) {
 
             for (int j = 1; j <= i; j++)
@@ -590,7 +590,7 @@ public class Pattern19 {
             System.out.println();
         }
 
-        // Lower
+        
         for (int i = n - 1; i >= 1; i--) {
 
             for (int j = 1; j <= i; j++)
@@ -696,19 +696,19 @@ public class Pattern23 {
 
         for (int i = 1; i <= n; i++) {
 
-            // Left spaces
+            
             for (int j = 1; j <= n - i; j++)
                 System.out.print(" ");
 
             System.out.print("*");
 
-            // Left gap
+            
             for (int j = 1; j <= 2 * i - 1; j++)
                 System.out.print(" ");
 
             System.out.print("*");
 
-            // Middle gap
+            
             for (int j = 1; j <= 2 * (n - i); j++)
                 System.out.print(" ");
 
@@ -743,7 +743,7 @@ public class Pattern24 {
 
         int n = 5;
 
-        // Upper
+        
         for (int i = 1; i <= n; i++) {
 
             for (int j = 1; j <= i; j++)
@@ -758,7 +758,7 @@ public class Pattern24 {
             System.out.println();
         }
 
-        // Lower
+        
         for (int i = n; i >= 1; i--) {
 
             for (int j = 1; j <= i; j++)
@@ -876,7 +876,7 @@ public class Pattern28 {
 
         int n = 5;
 
-        // Upper
+        
         for (int i = 1; i <= n; i++) {
 
             for (int j = 1; j <= n - i; j++)
@@ -918,7 +918,7 @@ public class Pattern29 {
 
         int n = 5;
 
-        // Upper
+        
         for (int i = 1; i <= n; i++) {
 
             for (int j = 1; j <= i; j++)
@@ -933,7 +933,7 @@ public class Pattern29 {
             System.out.println();
         }
 
-        // Lower
+        
         for (int i = n - 1; i >= 1; i--) {
 
             for (int j = 1; j <= i; j++)
