@@ -7,6 +7,7 @@ Pattern 1
 *****
 ****
 CODE:
+
 public class Pattern1 {
     public static void main(String[] args) {
 
@@ -41,12 +42,14 @@ public class Pattern2 {
 }
 
 Pattern 3
+
 *****
 ****
 ***
 **
 *
 CODE:
+
 public class Pattern3 {
     public static void main(String[] args) {
 
@@ -67,6 +70,7 @@ Pattern 4
 1 2 3 4
 1 2 3 4 5
 CODE:
+
 public class Pattern4 {
     public static void main(String[] args) {
 
@@ -91,6 +95,7 @@ Pattern 5
 **
 *
 CODE:
+
 public class Pattern5 {
     public static void main(String[] args) {
 
@@ -119,6 +124,7 @@ Pattern 6
  ****
 *****
 CODE:
+
 public class Pattern6 {
     public static void main(String[] args) {
 
