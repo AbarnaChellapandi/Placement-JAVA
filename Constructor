@@ -24,7 +24,7 @@ import java.io.*;
 
 class Friends{
 
-    // Default Constructor
+    
     Friends(){
         
         System.out.println("Default constructor"); 
@@ -41,7 +41,7 @@ Default constructor
 
 class Abarna{
 
-    /
+    
     String name;
     int id;
 
@@ -85,7 +85,7 @@ class Student {
         this.id = id;
     }
 
-    // Copy Constructor
+    
     Student(Student obj2) {
         this.name = obj2.name;
         this.id = obj2.id;
