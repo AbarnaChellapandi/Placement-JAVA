@@ -1,0 +1,77 @@
+Question:1
+Code:
+class BankAccount {
+    private double balance;
+
+    public BankAccount(double initialBalance) {
+        if (initialBalance >= 0) {
+            this.balance = initialBalance;
+        }
+    }
+
+    public double getBalance() {
+        return balance;
+    }
+
+    public void deposit(double amount) {
+        if (amount > 0) {
+            balance += amount;
+        }
+    }
+
+    public void withdraw(double amount) {
+        if (amount > 0 && amount <= balance) {
+            balance -= amount;
+        }
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        BankAccount account = new BankAccount(100.0);
+        account.deposit(50.0);
+        account.withdraw(30.0);
+        System.out.println("Balance: " + account.getBalance());
+    }
+}
+Output:
+Balance: 120.0
+Question:2
+Code:
+```java
+class Student {
+    private String name;
+    private int age;
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Student s = new Student();
+
+        s.setName("John");
+        s.setAge(20);
+
+        System.out.println(s.getName());
+        System.out.println(s.getAge());
+    }
+}
+Output:
+John
+20
+
